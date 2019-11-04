@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[[SUCESS] Teachaway site launched.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Verified Teachaway page title.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Screenshot saved.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Verified Job Board link is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Verified Destinations Menu is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Verified Featured Programs Menu is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Verified Job Openings Menu is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Verified Teach in the US Menu is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Verified Community Menu is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Screenshot saved.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Verified TEFL Courses link is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Verified TEFL Certification Guide link is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Screenshot saved.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Verified Certification Program link is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Verified Teacher Certification Guide link is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Screenshot saved.]]>
+    </line>
+    <line>
+      <![CDATA[[SUCESS] Screenshot saved.]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31876" started-at="2019-11-04T13:57:15 MST" finished-at="2019-11-04T13:57:47 MST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31876" started-at="2019-11-04T13:57:15 MST" finished-at="2019-11-04T13:57:47 MST">
+      <class name="com.teachaway.tests.TeachawayHomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.teachaway.tests.TeachawayHomePageTest@7c29daf3]" name="setUp" is-config="true" duration-ms="8794" started-at="2019-11-04T13:57:15 MST" finished-at="2019-11-04T13:57:24 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.teachaway.tests.TeachawayHomePageTest@7c29daf3]" name="verifyHomePageTitleTest" duration-ms="22049" started-at="2019-11-04T13:57:24 MST" finished-at="2019-11-04T13:57:46 MST">
+          <reporter-output>
+            <line>
+              <![CDATA[[SUCESS] Teachaway site launched.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Verified Teachaway page title.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Screenshot saved.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Verified Job Board link is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Verified Destinations Menu is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Verified Featured Programs Menu is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Verified Job Openings Menu is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Verified Teach in the US Menu is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Verified Community Menu is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Screenshot saved.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Verified TEFL Courses link is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Verified TEFL Certification Guide link is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Screenshot saved.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Verified Certification Program link is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Verified Teacher Certification Guide link is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Screenshot saved.]]>
+            </line>
+            <line>
+              <![CDATA[[SUCESS] Screenshot saved.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.teachaway.tests.TeachawayHomePageTest@7c29daf3]" name="tearDown" is-config="true" duration-ms="979" started-at="2019-11-04T13:57:46 MST" finished-at="2019-11-04T13:57:47 MST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.teachaway.tests.TeachawayHomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
