@@ -65,7 +65,7 @@ public class TeachawayHomePage extends TestBase {
 
 		Actions action = new Actions(driver);
 		action.moveToElement(jobMainMenu).build().perform();
-		Thread.sleep(3000);
+		
 		if (jobMainMenu.isDisplayed()) {
 			System.out.println("Job Main Menu is dispalyed");
 		}
@@ -73,21 +73,21 @@ public class TeachawayHomePage extends TestBase {
 		for (int i = 1; i <= 5; i++) {
 			verifyMainMenus(menudata.getData(0, i, 0));
 		}
-		Thread.sleep(3000);
+		
 		if (teflMainMenu.isDisplayed()) {
 			System.out.println("TEFL Main Menu is displayed");
 		}
 		action.moveToElement(teflMainMenu).build().perform();
 		verifyMainMenusLink(menudata.getData(1, 0, 0));
 		verifyMainMenusLink(menudata.getData(1, 1, 0));
-		Thread.sleep(3000);
+		
 		if (teacherSubscriptionMainMenu.isDisplayed()) {
 			System.out.println("Teacher Subscription Main Menu is displayed");
 		}
 		action.moveToElement(teacherSubscriptionMainMenu).build().perform();
 		verifyMainMenusLink(menudata.getData(2, 0, 0));
 		verifyMainMenusLink(menudata.getData(2, 1, 0));
-		Thread.sleep(3000);
+		
 		if (hireTeachersMainMenu.isDisplayed()) {
 			System.out.println("Hire Teacher Main Menu is displayed");
 		}
