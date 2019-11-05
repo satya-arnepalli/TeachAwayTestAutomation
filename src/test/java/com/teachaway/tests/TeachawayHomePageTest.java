@@ -35,7 +35,7 @@ public class TeachawayHomePageTest extends TestBase {
 		Assert.assertEquals(techawayHomePageTitle, "Teach Abroad - Teach Away - Discover Where Teaching Can Take You",
 				"Techaway Home page title not matched");
 		Reporter.log("[SUCESS] Verified Teachaway page title.");
-		Thread.sleep(3000);
+		
 		techawayHomePage.verifyMenus();
 		TestUtil.takeScreenshotAtEndOfTest();
 	}
